@@ -7,8 +7,8 @@ fn main() {
 
     let mut accumulator = 0;
 
-// `n` will take the values: 1, 2, ..., max_number in each iteration
-    for n in 1..(max_number + 1) {
+// `n` will take the values: 1, 2, ..., max_number-1 in each iteration
+    for n in 1..max_number {
         let mut is_divisible = false;
         for i in 0..divisors.len() {
             let divisor = divisors[i];
